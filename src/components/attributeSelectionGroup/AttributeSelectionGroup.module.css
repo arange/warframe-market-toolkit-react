@@ -1,0 +1,10 @@
+.Title {
+  width: 100%;
+  text-align: center;
+}
+
+.Content {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-around;
+}
