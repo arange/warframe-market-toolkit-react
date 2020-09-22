@@ -1,33 +1,33 @@
-import { MeleeWeapons, ATTRIBUTES } from '../WarframeItemDB';
+import { Weapons, ATTRIBUTES } from '../WarframeItemDB';
 
 export const findZhName = (weapon_url_name) => {
-  const index = MeleeWeapons.findIndex(weapon => weapon.url_name === weapon_url_name);
+  const index = Weapons.findIndex(weapon => weapon.url_name === weapon_url_name);
   if (index === -1) return weapon_url_name;
-  return MeleeWeapons[index].name.zh;
+  return Weapons[index].name.zh;
 }
 
 export const findEnName = (weapon_url_name) => {
-  const index = MeleeWeapons.findIndex(weapon => weapon.url_name === weapon_url_name);
+  const index = Weapons.findIndex(weapon => weapon.url_name === weapon_url_name);
   if (index === -1) return weapon_url_name;
-  return MeleeWeapons[index].name.en;
+  return Weapons[index].name.en;
 }
 
 export const isKhora = (weapon_url_name) => {
-  const index = MeleeWeapons.findIndex(weapon => weapon.url_name === weapon_url_name);
+  const index = Weapons.findIndex(weapon => weapon.url_name === weapon_url_name);
   if (index === -1) return false;
-  return MeleeWeapons[index].disposition >= 1.3;
+  return Weapons[index].disposition >= 1.3;
 }
 
 export const isUsable = (weapon_url_name) => {
-  const index = MeleeWeapons.findIndex(weapon => weapon.url_name === weapon_url_name);
+  const index = Weapons.findIndex(weapon => weapon.url_name === weapon_url_name);
   if (index === -1) return false;
-  return MeleeWeapons[index].isUseable;
+  return Weapons[index].isUseable;
 }
 
 export const getDisposition = (weapon_url_name) => {
-  const index = MeleeWeapons.findIndex(weapon => weapon.url_name === weapon_url_name);
+  const index = Weapons.findIndex(weapon => weapon.url_name === weapon_url_name);
   if (index === -1) return 0;
-  return MeleeWeapons[index].disposition;
+  return Weapons[index].disposition;
 }
 
 export const getAttributeZhName = (weapon_url_name) => {

@@ -6,12 +6,12 @@ import LocalDiningIcon from '@material-ui/icons/LocalDining';
 import RestaurantIcon from '@material-ui/icons/Restaurant';
 import React, { Component, Fragment } from 'react';
 import { NavLink, Route, Switch } from 'react-router-dom';
-import Khora from './modules/weaponFilters/Khora';
-import Kronen from './modules/weaponFilters/Kronen';
-import UsableMeleeWeapon from './modules/weaponFilters/UsableMeleeWeapon';
+import Khora from './modules/melee/Khora';
+import Kronen from './modules/melee/Kronen';
+import UsableMeleeWeapon from './modules/melee/UsableMeleeWeapon';
 import { AppContext } from './service/app.context';
 import { isKhora, isUsable } from './service/functions';
-import { meleeWeapons } from './WarframeItemDB';
+import { MeleeWeapons } from './WarframeItemDB';
 
 class Main extends Component {
 

@@ -1,4 +1,4 @@
-export const MeleeWeapons = [
+export const Weapons = [
   {
     name: {
       en: 'Dark Split-Sword',
@@ -290,7 +290,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'Amphis',
-      zh: '诡计之刃',
+      zh: '双头蛇',
     },
     url_name:'amphis',
     disposition: 1.5,
@@ -299,7 +299,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'Ether Daggers',
-      zh: '诡计之刃',
+      zh: '苍穹匕首',
     },
     url_name:'ether_daggers',
     disposition: 1.49,
@@ -308,7 +308,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'Cronus',
-      zh: '诡计之刃',
+      zh: '克洛诺斯',
     },
     url_name:'cronus',
     disposition: 1.48,
@@ -317,7 +317,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'Dark Sword',
-      zh: '诡计之刃',
+      zh: '暗黑长剑',
     },
     url_name:'dark_sword',
     disposition: 1.48,
@@ -326,7 +326,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'Dual Skana',
-      zh: '诡计之刃',
+      zh: '空刃双刀',
     },
     url_name:'dual_skana',
     disposition: 1.48,
@@ -335,7 +335,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'Heat Sword',
-      zh: '诡计之刃',
+      zh: '烈焰长剑',
     },
     url_name:'heat_sword',
     disposition: 1.48,
@@ -344,7 +344,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'Plasma Sword',
-      zh: '诡计之刃',
+      zh: '等离子长剑',
     },
     url_name:'plasma_sword',
     disposition: 1.48,
@@ -353,7 +353,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'Kama',
-      zh: '诡计之刃',
+      zh: '短柄战镰',
     },
     url_name:'kama',
     disposition: 1.47,
@@ -371,7 +371,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'Anku',
-      zh: '鲮鲤剑',
+      zh: '夺魂死神',
     },
     url_name:'anku',
     disposition: 1.46,
@@ -389,7 +389,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'Ankyros',
-      zh: '科加基',
+      zh: '甲龙双拳',
     },
     url_name:'ankyros',
     disposition: 1.45,
@@ -407,7 +407,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'Ether Reaper',
-      zh: '苍穹双剑',
+      zh: '苍穹死神',
     },
     url_name:'ether_reaper',
     disposition: 1.45,
@@ -416,7 +416,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'Kestrel',
-      zh: '苍穹双剑',
+      zh: '红隼',
     },
     url_name:'kestrel',
     disposition: 1.45,
@@ -443,7 +443,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'DUAL ZOREN',
-      zh: '苍穹双剑',
+      zh: '佐伦双斧',
     },
     url_name:'dual_zoren',
     disposition: 1.44,
@@ -452,7 +452,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'ETHER SWORD',
-      zh: '苍穹双剑',
+      zh: '苍穹之剑',
     },
     url_name:'ether_sword',
     disposition: 1.44,
@@ -470,7 +470,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'HALIKAR',
-      zh: '格拉姆',
+      zh: '哈利卡',
     },
     url_name:'halikar',
     disposition: 1.44,
@@ -479,7 +479,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'HEAT DAGGER',
-      zh: '格拉姆',
+      zh: '烈焰匕首',
     },
     url_name:'heat_dagger',
     disposition: 1.44,
@@ -488,7 +488,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'CERAMIC DAGGER',
-      zh: '格拉姆',
+      zh: '陶瓷匕首',
     },
     url_name:'ceramic_dagger',
     disposition: 1.43,
@@ -506,7 +506,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'NAMI SOLO',
-      zh: '皇家拐刃',
+      zh: '海波单剑',
     },
     url_name:'nami_solo',
     disposition: 1.43,
@@ -524,7 +524,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'DUAL RAZA',
-      zh: '降灵追猎者',
+      zh: '锋月双斧',
     },
     url_name:'dual_raza',
     disposition: 1.40,
@@ -533,7 +533,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'JAW SWORD',
-      zh: '降灵追猎者',
+      zh: '蛇颚刀',
     },
     url_name:'jaw_sword',
     disposition: 1.40,
@@ -551,7 +551,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'OKINA',
-      zh: '玻之武杖',
+      zh: '翁',
     },
     url_name:'okina',
     disposition: 1.40,
@@ -560,7 +560,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'PROVA',
-      zh: '玻之武杖',
+      zh: '普罗沃',
     },
     url_name:'prova',
     disposition: 1.40,
@@ -587,7 +587,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'SERRO',
-      zh: '锐卡斯',
+      zh: '电能斩锯',
     },
     url_name:'serro',
     disposition: 1.38,
@@ -596,7 +596,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'TONBO',
-      zh: '锐卡斯',
+      zh: '蜻蛉薙',
     },
     url_name:'tonbo',
     disposition: 1.38,
@@ -605,7 +605,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'CERATA',
-      zh: '锐卡斯',
+      zh: '裸鳃刃',
     },
     url_name:'cerata',
     disposition: 1.36,
@@ -623,7 +623,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'BROKEN SCEPTER',
-      zh: '狼牙',
+      zh: '破损珽杖',
     },
     url_name:'broken_scepter',
     disposition: 1.35,
@@ -658,17 +658,8 @@ export const MeleeWeapons = [
   },
   {
     name: {
-      en: 'PROVA VANDAL',
-      zh: '克鲁古尔',
-    },
-    url_name:'prova_vandal',
-    disposition: 1.35,
-    isUseable: false,
-  },
-  {
-    name: {
       en: 'SHAKU',
-      zh: '克鲁古尔',
+      zh: '双节尺棍',
     },
     url_name:'shaku',
     disposition: 1.35,
@@ -677,7 +668,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'SIBEAR',
-      zh: '克鲁古尔',
+      zh: '西伯利亚冰锤',
     },
     url_name:'sibear',
     disposition: 1.35,
@@ -713,7 +704,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'CAUSTACYST',
-      zh: '提佩多',
+      zh: '	灼蚀变体镰',
     },
     url_name:'caustacyst',
     disposition: 1.31,
@@ -731,7 +722,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'ENDURA',
-      zh: 'Dex达克拉',
+      zh: '三叶坚韧',
     },
     url_name:'endura',
     disposition: 1.3,
@@ -758,7 +749,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'MIRE',
-      zh: '执法者',
+      zh: '米尔',
     },
     url_name:'mire',
     disposition: 1.3,
@@ -785,7 +776,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'ORVIUS',
-      zh: '奥比克斯',
+      zh: '	灵枢',
     },
     url_name:'orvius',
     disposition: 1.3,
@@ -803,7 +794,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'SCOLIAC',
-      zh: '分裂斩斧',
+      zh: '脊椎节鞭',
     },
     url_name:'scoliac',
     disposition: 1.3,
@@ -812,7 +803,7 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'SHEEV',
-      zh: '分裂斩斧',
+      zh: '希芙',
     },
     url_name:'sheev',
     disposition: 1.3,
@@ -830,17 +821,37 @@ export const MeleeWeapons = [
   {
     name: {
       en: 'TWIN BASOLK',
-      zh: '空刃',
+      zh: '双子巴萨克',
     },
     url_name:'twin_basolk',
     disposition: 1.3,
     isUseable: false,
   },
-  
+
+  /* 主武器 */
+  {
+    name: {
+      en: 'Rubico',
+      zh: '绝路',
+    },
+    url_name:'rubico',
+    disposition: 0.8,
+  },
+  {
+    name: {
+      en: 'Vectis',
+      zh: '守望者',
+    },
+    url_name:'vectis',
+    disposition: 1.05,
+  },
 ];
 // 1.25 ACK &amp; BRUNT</li><li>1.25 CASSOWAR</li><li>1.25 COBRA &amp; CRANE</li><li>1.25 DECONSTRUCTOR</li><li>1.25 DECONSTRUCTOR PRIME</li><li>1.25 DESTREZA</li><li>1.25 FALCOR</li><li>1.25 GALVACORD</li><li>1.25 GUNSEN</li><li>1.25 HELIOCOR</li><li>1.25 KORRUDO</li><li>1.25 KRESKA</li><li>1.25 KRONSH</li><li>1.25 PATHOCYST</li><li>1.25 PUPACYST</li><li>1.25 SCINDO PRIME</li><li>1.25 TIPEDO PRIME</li><li>1.25 TWIN KROHKUR</li><li>1.24 SARPA</li><li>1.22 GLAIVE PRIME</li><li>1.21 DARK SPLIT-SWORD</li><li>1.20 ARCA TITRON</li><li>1.20 BOLTACE</li><li>1.20 DRAGON NIKANA</li><li>1.20 DUAL CLEAVERS</li><li>1.20 DUAL KERES</li><li>1.20 HATE</li><li>1.20 MIOS</li><li>1.20 PRISMA OBEX</li><li>1.20 PRISMA SKANA</li><li>1.20 RABVEE</li><li>1.20 SANCTI MAGISTAR</li><li>1.20 SKANA PRIME</li><li>1.20 SYNOID HELIOCOR</li><li>1.20 WOLF SLEDGE</li><li>1.17 REDEEMER</li><li>1.16 DUAL ICHOR</li><li>1.15 DEHTAT</li><li>1.15 DUAL KAMAS</li><li>1.15 FRAGOR</li><li>1.15 JAT KITTAG</li><li>1.15 MASSETER</li><li>1.15 OHMA</li><li>1.15 OOLTHA</li><li>1.15 SILVA &amp; AEGIS</li><li>1.15 SYDON</li><li>1.14 DESTREZA PRIME</li><li>1.10 DAKRA PRIME</li><li>1.10 JAT KUSAR</li><li>1.10 NINKONDI PRIME</li><li>1.10 PRISMA DUAL CLEAVERS</li><li>1.10 VAYKOR SYDON</li><li>1.05 BROKEN WAR</li><li>1.05 CETI LACERA</li><li>1.05 DUAL KAMAS PRIME</li><li>1.05 FRAGOR PRIME</li><li>1.05 GRAM PRIME</li><li>1.05 KRONEN PRIME</li><li>1.05 MEWAN</li><li>1.00 GUANDAO</li><li>1.00 LECTA</li><li>1.00 NAMI SKYLA PRIME</li><li>1.00 PANGOLIN PRIME</li><li>1.00 REAPER PRIME</li><li>1.00 SIGMA &amp; OCTANTIS</li><li>1.00 SILVA &amp; AEGIS PRIME</li><li>1.00 TELOS BOLTACE</li><li>0.95 HIRUDO</li><li>0.95 TATSU</li><li>0.95 ZENISTAR</li><li>0.90 ATTERAX</li><li>0.90 BALLA</li><li>0.90 CYATH</li><li>0.90 DARK DAGGER</li><li>0.90 SECURA LECTA</li><li>0.90 SKIAJATI</li><li>0.90 VENKA</li><li>0.90 WAR</li><li>0.85 GALATINE</li><li>0.85 ORTHOS</li><li>0.85 PENNANT</li><li>0.80 NIKANA</li><li>0.80 RAKTA DARK DAGGER</li><li>0.80 REDEEMER PRIME</li><li>0.80 VENKA PRIME</li><li>0.75 DOKRAHM</li><li>0.75 KUVA SHILDEG</li><li>0.75 PLAGUE KEEWAR</li><li>0.75 SEPFAHN</li><li>0.70 PARACESIS</li><li>0.65 GALATINE PRIME</li><li>0.65 LESION</li><li>0.65 PLAGUE KRIPATH</li><li>0.60 ORTHOS PRIME</li><li>0.50 KARYST PRIME</li><li>0.50 KERATINOS</li><li>0.50 NIKANA PRIME</li><li>0.50 QUASSUS</li><li>0.50 STROPHA</li><li>0.50 XORIS</li></ul>
 
 export const ATTRIBUTES = {
+  /*
+  近战武器属性
+   */
   baseDamage: { name: 'base_damage_/_melee_damage', zh: '基础伤害'},
   criticalDamage: { name: 'critical_damage', zh: '暴击伤害'},
   criticalChance: { name: 'critical_chance', zh: '暴击几率'},
@@ -864,4 +875,14 @@ export const ATTRIBUTES = {
   gDamage: { name: 'damage_vs_grineer', zh: '对Grineer伤害'},
   comboCount: { name: 'chance_to_gain_extra_combo_count', zh: '获取连击数几率'},
   initialComboCount: { name: 'channeling_damage', zh: '初始连击数'}, // wm refers initial combo to channeling_damage
+
+  /*
+  主副武器属性
+   */
+  multiShot: {name: 'multishot', zh: '多重射击'},
+  recoil: {name: 'recoil', zh: '后座力'},
+  ammoMax: {name: 'ammo_maximum', zh: '弹药最大值'},
+  magazineCapacity: {name: 'magazine_capacity', zh: '弹匣容量'},
+  reloadSpeed: {name: 'reload_speed', zh: '装填速度'},
+  zoom: {name: 'zoom', zh: '变焦'},
 }

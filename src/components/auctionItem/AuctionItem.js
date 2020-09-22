@@ -84,7 +84,14 @@ export default function AuctionItem(props) {
       </div >
       <div className={styles.Footer}>
         <div>
-          <Link variant="contained" color="primary" id={props.auction.owner.ingame_name} value={props.auction.owner.ingame_name}>{props.auction.owner.ingame_name}</Link>
+          <Link
+            variant="contained"
+            color="primary"
+            id={props.auction.owner.ingame_name}
+            href={'https://warframe.market/profile/' + props.auction.owner.ingame_name}
+            target='_blank'>
+            {props.auction.owner.ingame_name}
+          </Link>
         </div>
         <div >
           <span >{props.auction.owner.status}</span>

@@ -17,8 +17,6 @@ import Kronen from '../../modules/melee/Kronen';
 import Redeemer from '../../modules/melee/Redeemer';
 import Stropha from '../../modules/melee/Stropha';
 import UsableMeleeWeapon from '../../modules/melee/UsableMeleeWeapon';
-import Rubico from '../../modules/primary/Rubico';
-import Vectis from '../../modules/primary/Vectis';
 
 const styles = (theme) => ({
   paper: {
@@ -80,16 +78,10 @@ function Content(props) {
         <Switch>
             <Route exact path={'/melee/usableMelee'} render={(props) => <UsableMeleeWeapon />} />
             <Route exact path={'/melee/khora'} render={(props) => <Khora />} />
-            {/* <Route exact path={'/melee/kronen'} render={(props) => <Kronen />} /> */}
+            <Route exact path={'/melee/kronen'} render={(props) => <Kronen />} />
             <Route exact path={'/melee/redeemer'} render={(props) => <Redeemer />} />
             <Route exact path={'/melee/stropha'} render={(props) => <Stropha />} />
             <Route exact path={'/melee/'} render={(props) => <UsableMeleeWeapon />} />
-
-            <Route exact path={'/primary/rubico'} render={(props) => <Rubico />} />
-            <Route exact path={'/primary/vectis'} render={(props) => <Vectis />} />
-            <Route exact path={'/primary/'} render={(props) => <Rubico />} />
-
-
             <Route exact path={'/'} render={(props) => <UsableMeleeWeapon />} />
           </Switch>
         </Typography>

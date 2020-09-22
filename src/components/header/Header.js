@@ -5,6 +5,7 @@ import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
 import HelpIcon from '@material-ui/icons/Help';
+import SettingsIcon from '@material-ui/icons/Settings';
 import Hidden from '@material-ui/core/Hidden';
 import IconButton from '@material-ui/core/IconButton';
 import Link from '@material-ui/core/Link';
@@ -16,6 +17,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Tooltip from '@material-ui/core/Tooltip';
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
+import { NavLink } from 'react-router-dom';
 
 const lightColor = 'rgba(255, 255, 255, 0.7)';
 
@@ -43,10 +45,11 @@ const styles = (theme) => ({
 
 function Header(props) {
   const { classes, onDrawerToggle } = props;
+  const [selectedTab, setSelectedTab] = React.useState(0);
 
   return (
     <React.Fragment>
-      <AppBar color="primary" position="sticky" elevation={0}>
+      <AppBar color="primary" position="static" elevation={0}>
         <Toolbar>
           <Grid container spacing={1} alignItems="center">
             <Hidden smUp>
@@ -93,13 +96,15 @@ function Header(props) {
           <Grid container alignItems="center" spacing={1}>
             <Grid item xs>
               <Typography color="inherit" variant="h5" component="h1">
-                Authentication
+                Melee Weapon
               </Typography>
             </Grid>
             <Grid item>
-              <Button className={classes.button} variant="outlined" color="inherit" size="small">
-                Web setup
-              </Button>
+              <Tooltip title="Configuration">
+                <IconButton color="inherit">
+                  <SettingsIcon />
+                </IconButton>
+              </Tooltip>
             </Grid>
             <Grid item>
               <Tooltip title="Help">
@@ -113,16 +118,27 @@ function Header(props) {
       </AppBar>
       <AppBar
         component="div"
-        className={classes.secondaryBar}
+        // className={classes.secondaryBar}
         color="primary"
-        position="static"
+        position="sticky"
         elevation={0}
       >
-        <Tabs value={0} textColor="inherit">
-          <Tab textColor="inherit" label="Users" />
-          <Tab textColor="inherit" label="Sign-in method" />
-          <Tab textColor="inherit" label="Templates" />
-          <Tab textColor="inherit" label="Usage" />
+        <Tabs value={selectedTab} textColor="inherit">
+          <NavLink to='/melee/usableMelee' style={{ color: '#fff', textDecoration: 'none' }}>
+            <Tab textColor="inherit" label="可用近战" onClick={() => setSelectedTab(0)} />
+          </NavLink>
+          <NavLink to='/melee/khora' style={{ color: '#fff', textDecoration: 'none' }}>
+            <Tab textColor="inherit" label="猫刀" onClick={() => setSelectedTab(1)} />
+          </NavLink>
+          <NavLink to='/melee/kronen' style={{ color: '#fff', textDecoration: 'none' }}>
+            <Tab textColor="inherit" label="皇拐" onClick={() => setSelectedTab(2)} />
+          </NavLink>
+          <NavLink to='/melee/redeemer' style={{ color: '#fff', textDecoration: 'none' }}>
+            <Tab textColor="inherit" label="救赎者" onClick={() => setSelectedTab(3)} />
+          </NavLink>
+          <NavLink to='/melee/stropha' style={{ color: '#fff', textDecoration: 'none' }}>
+            <Tab textColor="inherit" label="诡计之刃" onClick={() => setSelectedTab(4)} />
+          </NavLink>
         </Tabs>
       </AppBar>
     </React.Fragment>
