@@ -10,6 +10,11 @@
 
 # production
 /build
+src/config.js
+
+# data
+src/WarframeItemDB.js
+
 
 # misc
 .DS_Store
